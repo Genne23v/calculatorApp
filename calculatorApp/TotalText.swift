@@ -8,6 +8,7 @@ struct TotalText: View {
             .fontWeight(.light)
             .padding()
             .foregroundColor(.white)
+            .lineLimit(1)
     }
 }
 
